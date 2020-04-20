@@ -1,0 +1,16 @@
+
+h1 {
+  background-color: rgba(191, 220, 241, 0.952);
+  color: midnightblue;
+  border: solid midnightblue;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3 {
+  color:rgba(191, 220, 241, 0.952);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+}

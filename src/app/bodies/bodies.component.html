@@ -1,0 +1,25 @@
+
+<div class="p-3 mb-2 bg-primary text-white">
+<table class="table table-bordered">
+  <thead>
+ <tr class="p-3 mb-2 bg-primary text-white">
+    <th>Trends</th>
+    <th>Expectations</th>
+   
+ </tr>
+ </thead>
+ <tbody>
+  <tr id="txt"  *ngFor= "let body of bodies">
+    <th>{{body.name}}</th>
+    <th>{{body.subtitle}}</th>
+  
+  </tr>
+</tbody>
+
+ </table>
+ <div id= 'but'>
+      <button type="button" (click) = "toggleButton()"
+      class="btn btn-outline-primary" >See the full article</button>
+      <h3 *ngIf= "isDisplay"><p id="txt"  *ngFor= "let body of bodies">{{body.name}} : {{body.details}}</p></h3>
+  </div>
+</div>
